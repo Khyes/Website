@@ -4,8 +4,9 @@ window.addEventListener("load", function () {
   const all = document.getElementById("all");
   const howto = document.getElementById("howto");
   setTimeout(() => {
-    howto.style.opacity = 1;
     all.style.opacity = 1;
+    all.style.transform = "translateY(0px)";
+    // all.style.transform = "translateY(0px)";
   }, 1000); // Add a delay of 2000 milliseconds (2 seconds)
 });
 
