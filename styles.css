@@ -559,7 +559,7 @@ img {
   padding: 2rem 2rem;
   gap:5rem;
   position: relative;
-  top: 40px;
+  top: 10px;
 }
 
 #hero-logo-container {
@@ -771,7 +771,37 @@ img {
 .howto {
   position: absolute;
   right: 120px;
-  top: 460px;
+  top: 420px;
   width: 150px;
   opacity: 1;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  right: 13%;
+  height: 50px;
+  width: 74%;
+  background-color: rgba(0, 0, 0, 0.80);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0 1rem;
+  border-top: 1px solid #202021;
+  font-size: 11px;
+}
+
+footer span {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+span.icon {
+  font-size: 14px;
+  position: relative;
+  top: 0px;
+  padding: 0 0.5rem;
 }
