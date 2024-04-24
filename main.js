@@ -1,14 +1,5 @@
 // import "./styles.css"
 
-window.addEventListener("load", function () {
-  const all = document.getElementById("all");
-  const howto = document.getElementById("howto");
-  setTimeout(() => {
-    all.style.opacity = 1;
-    all.style.transform = "translateY(0px)";
-    // all.style.transform = "translateY(0px)";
-  }, 1000); // Add a delay of 2000 milliseconds (2 seconds)
-});
 
 document.addEventListener("DOMContentLoaded", () => {
   const interBubble = document.querySelector(".interactive")
